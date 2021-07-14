@@ -129,6 +129,7 @@ body{
 .section-three{
     overflow: hidden;
     padding-top: 40px;
+    padding-bottom: 30px;
   
 }
 .logo-one{
@@ -189,6 +190,21 @@ ul {
     color: whitesmoke;
     cursor: pointer;
 }
+.icon{
+    width: 100%;
+    text-align: center;
+}
+.icon span .icon-one{
+    font-size: 30px;
+    padding: 5px;
+    color: red;
+}
+.icon span .icon-two{
+    font-size: 30px;
+    padding: 5px;
+    color: green;
+}
+
 
 
 
