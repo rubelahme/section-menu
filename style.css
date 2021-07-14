@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:  sans-serif;
+}
+.container{
+    width: 85%;
+    margin: auto;
+    max-width: 1200px;
+}
+.header{
+    background:#3B5998 ;
+    overflow: hidden;
+    padding: 6px;
+    padding-bottom: 100px;
+}
+.logo{
+    width: 60%;
+    float: left;
+    margin-top: 100px;
+}
+.logo h1{
+       font-size: 40px;
+   }
+.logo button{
+       margin-top: 15px;
+       font-size: 17px;
+       padding: 5px 7px;
+       background-color: yellowgreen;
+       border: 1px solid yellow;
+       color: whitesmoke;
+       cursor: pointer;
+     
+}
+   .login{
+    width: 40%;
+    float: left;
+    color: #FFE6D9;
+}
+
+.login .img-one{
+    width: 100%;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0%   { left:0px; top:0px;}
+    25%  { left:10px; top:10px;}
+    50%  { left:10px; top:10px;}
+    75%  { left:0px; top:10px;}
+    100% {left:0px; top:0px;}
+}
+
+.section-one{
+    overflow: hidden;
+    padding-top: 20px;
+    background-color: rgb(216, 213, 213);
+}
+.player-one{
+    float: left;
+    width: 30%;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    box-shadow: 0px 20px 20px 0px gray;
+}
+.player-one .img-two{
+    width: 80%;
+}
+.player-two{
+    float: left;
+    width: 30%;
+    padding: 10px 15px;
+    margin-left: 15px;
+    box-shadow: 0px 20px 20px 0px gray;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+.player-two .img-two{
+    width: 80%;
+}
+.player-three{
+    float: left;
+    width: 30%;
+    padding: 10px 15px;
+    margin-left: 15px;
+    box-shadow: 0px 10px 10px 0px gray;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+.player-three .img-two{
+    width: 80%;
+}
+.section-two{
+    overflow: hidden;
+    padding-top: 100px;
+    background-color: rgb(216, 213, 213);
+}
+.copa-one{
+    float: left;
+    padding-top: 40px;
+    width: 50%;
+}
+.copa-one button{
+    margin-top: 15px;
+       font-size: 17px;
+       padding: 5px 7px;
+       background-color: yellowgreen;
+       border: 1px solid yellow;
+       color: whitesmoke;
+       cursor: pointer;
+}
+.copa-two{
+    float: left;
+    width: 50%;
+}
+.copa-two .img-three{
+    width: 80%;
+    height: 300px;
+    padding-bottom: 40px;
+}
+
+.section-three{
+    overflow: hidden;
+    padding-top: 40px;
+  
+}
+.logo-one{
+    text-align: center;
+}
+.logo-one img{
+    width: 300px;
+    background-color: whitesmoke;
+}
+
+.section-five{
+    background-color: #3B5998;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3B5998;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+.menu-one{
+    float: left;
+    width: 92%;
+}
+.menu-two{
+    float: right;
+    width: 8%;
+    margin: auto;
+}
+.menu-two button{
+    margin-top: 15px;
+    display: block;
+    font-size: 17px;
+    padding: 7px 15px;
+    background-color: yellowgreen;
+    border: 1px solid yellow;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width:980px){
+    .section-five{
+        padding-bottom: 10px;
+    }
+
+    .menu-one{
+        float: left;
+        width: 80%;
+    }
+    .menu-two{
+        float: right;
+        width: 20%;
+    }
+    li a {
+        display: block;
+        font-size: 15px;
+        color: white;
+        text-align: center;
+      }
+      .menu-two button{
+        
+        margin-top: 10px;
+        font-size: 15px;
+        padding: 5px 10px;
+        background-color: yellowgreen;
+      
+    }
+
+    .logo{
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin-bottom: 15px;
+       }
+    .login{
+        width: 100%;
+        float: none;
+        margin: auto;
+   }
+
+   .player-one{
+       width: 100%;
+   }
+   .player-two{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+}
+.player-three{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+}
+.copa-one{
+    width: 100%;
+    color: whitesmoke;
+}
+.copa-two{
+    width: 100%;
+    margin-top: 20px;
+}
+.section-one{
+    background:#3B5998 ;
+}
+.section-two{
+    background:#3B5998 ;
+    padding-top: 50px;
+}
+}
